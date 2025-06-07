@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>دعوت‌نامه‌ی فریدون اشراقی</title>
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes glow {
+      0% { box-shadow: 0 0 5px #d4af37; }
+      50% { box-shadow: 0 0 20px #d4af37; }
+      100% { box-shadow: 0 0 5px #d4af37; }
+    }
+    body {
+      background: url('https://cdn.pixabay.com/photo/2020/08/08/11/34/persian-pattern-5472164_1280.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f9f9f9;
+      font-family: "Vazir", Tahoma, sans-serif;
+      direction: rtl;
+      padding: 6vh 12vw;
+      animation: fadeIn 2s ease-in-out;
+      backdrop-filter: brightness(0.6);
+    }
+    .verse {
+      font-size: 1.6em;
+      margin: 40px 0;
+      line-height: 2.4em;
+      text-align: center;
+      color: #ffefd5;
+      text-shadow: 0 0 10px #222;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .shadow-say {
+      margin-top: 60px;
+      padding: 25px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 16px;
+      color: #eee;
+      font-size: 1.2em;
+      line-height: 2.6em;
+      animation: fadeIn 2.5s ease-in-out;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    }
+    .button {
+      display: block;
+      margin: 60px auto 20px;
+      padding: 14px 36px;
+      background-color: #d4af37;
+      color: #0c0c0c;
+      font-size: 1.2em;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      animation: glow 3s infinite;
+      transition: transform 0.3s;
+    }
+    .button:hover {
+      transform: scale(1.08);
+    }
+    .footer-graphic {
+      margin-top: 60px;
+      text-align: center;
+      opacity: 0.7;
+      animation: fadeIn 4s ease-in-out;
+    }
+    audio {
+      margin-top: 40px;
+      display: block;
+      width: 100%;
+      border-radius: 12px;
+    }
+    .phoenix {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      width: 64px;
+      opacity: 0.8;
+      animation: fadeIn 3s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Phoenix_Fantasy.svg/1200px-Phoenix_Fantasy.svg.png" class="phoenix" alt="ققنوس" />
+
+  <div class="verse" style="animation-delay: 0.5s;">
+    <p>در ازل پرتو حسنت ز تجلی دم زد<br>
+    عشق پیدا شد و آتش به همه عالم زد</p>
+  </div>
+
+  <div class="verse" style="animation-delay: 1.2s;">
+    <p>تو مگو همه به جنگ‌اند و ز صلح من چه آید<br>
+    یکی نهفته باشد که به جنگ می‌ارزد</p>
+  </div>
+
+  <div class="shadow-say">
+    <p>
+      اگر امروز دعوتی‌ست، نه برای خرید سهم،<br>
+      که برای گشودن دالانی‌ست که با دل ساخته شد.<br>
+      این شهر، با شاینی روشن نمی‌شود؛ با نیت روشن می‌ماند.
+    </p>
+  </div>
+
+  <a class="button" href="proposal.html" target="_blank">مشاهده‌ی دعوت‌نامه</a>
+
+  <audio controls>
+    <source src="https://dl.irmp3.ir/media/mp3/38548.mp3" type="audio/mpeg">
+    مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+  </audio>
+
+  <div class="footer-graphic">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shiny_gold_orb.svg/1024px-Shiny_gold_orb.svg.png" width="80" alt="شاینی">
+  </div>
+</body>
+</html>
